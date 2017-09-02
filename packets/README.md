@@ -1,7 +1,7 @@
 # Packet Structure
 ![Alert](https://rawgit.com/openaps/omnidocs/master/packets/packet.svg)
 
-At the hardware level, the pod_address_1, packet type, sequence, and crc are stripped, and the remaining data is presented to the firmware.
+At the hardware level, the pod_address_1 and crc are stripped, and the remaining data is presented to the firmware.
 
 #### packet_type (3 bits)
 
